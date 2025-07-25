@@ -54,11 +54,9 @@ Analyse les fichiers images donnés en argument et affiche leurs métadonnées E
 
 - `make run`  
   Lance `spider.py` en mode récursif (-r) avec une profondeur limitée à 2 (-l 2) pour toutes les URLs listées dans le fichier `scrapSite.txt`.
-![run](https://github.com/ftTower/ftTower/blob/main/assets/Arachnida/run.png)
 
 - `make metadata`  
   Parcourt tous les fichiers `.jpg` et `.png` dans le dossier `data` et lance `scorpion.py` pour afficher leurs métadonnées.
-![metadata](https://github.com/ftTower/ftTower/blob/main/assets/Arachnida/metadata.png)
 
 - `make clean`  
   Supprime le dossier `data` où sont stockées les images téléchargées.
@@ -79,12 +77,14 @@ Analyse les fichiers images donnés en argument et affiche leurs métadonnées E
 ```bash
 make run
 ```
+![run](https://github.com/ftTower/ftTower/blob/main/assets/Arachnida/run.png)
 
 3. Analyser les métadonnées des images téléchargées :
 
 ```bash
 make metadata
 ```
+![metadata](https://github.com/ftTower/ftTower/blob/main/assets/Arachnida/metadata.png)
 
 4. Nettoyer les fichiers téléchargés :
 
