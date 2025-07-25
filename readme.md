@@ -26,6 +26,7 @@ Le projet est composé de deux programmes :
 ```bash
 ./spider.py [-r] [-l N] [-p PATH] URL
 ```
+![spider](https://github.com/ftTower/ftTower/blob/main/assets/Arachnida/spider.png)
 
 - `-r` : active la récursion pour explorer les pages liées.
 - `-l N` : profondeur maximale de récursion (par défaut 5).
@@ -33,6 +34,7 @@ Le projet est composé de deux programmes :
 - `URL` : adresse du site à scraper.
 
 Le programme télécharge par défaut les images aux extensions `.jpg`, `.jpeg`, `.png`, `.gif`, `.bmp`.
+![downloading](https://github.com/ftTower/ftTower/blob/main/assets/Arachnida/download.png)
 
 ---
 
@@ -41,6 +43,8 @@ Le programme télécharge par défaut les images aux extensions `.jpg`, `.jpeg`,
 ```bash
 ./scorpion.py FILE1 [FILE2 ...]
 ```
+![scorpion](https://github.com/ftTower/ftTower/blob/main/assets/Arachnida/scorpion.png)
+
 
 Analyse les fichiers images donnés en argument et affiche leurs métadonnées EXIF et informations complémentaires.
 
@@ -50,9 +54,11 @@ Analyse les fichiers images donnés en argument et affiche leurs métadonnées E
 
 - `make run`  
   Lance `spider.py` en mode récursif (-r) avec une profondeur limitée à 2 (-l 2) pour toutes les URLs listées dans le fichier `scrapSite.txt`.
+![run](https://github.com/ftTower/ftTower/blob/main/assets/Arachnida/run.png)
 
 - `make metadata`  
   Parcourt tous les fichiers `.jpg` et `.png` dans le dossier `data` et lance `scorpion.py` pour afficher leurs métadonnées.
+![metadata](https://github.com/ftTower/ftTower/blob/main/assets/Arachnida/metadata.png)
 
 - `make clean`  
   Supprime le dossier `data` où sont stockées les images téléchargées.
